@@ -1,7 +1,6 @@
 class Hero:
     pass
 
-
 hero1 = Hero() #object / instance (instantite)
 hero2 = Hero()
 hero3 = Hero()
@@ -18,3 +17,9 @@ hero3.health = 1000
 print(hero1)
 print(hero1.__dict__)
 print(hero1.name)
+
+print("="*10)
+
+print(hero2)
+print(hero2.__dict__)
+print(hero2.name)
